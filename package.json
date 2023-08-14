@@ -1,5 +1,5 @@
 {
-  "name": "jukeboxxlondonhp",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,7 +43,7 @@
     ]
   },
   "main": "index.js",
-  "author": "toru",
+  "author": "JukkeBoxx",
   "license": "MIT",
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
