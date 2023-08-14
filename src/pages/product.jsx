@@ -107,7 +107,7 @@ const productPage = () => {
         <p className={cx('size-comment')}>
           ※実際の商品と表記サイズには数cmの個体差が生じる場合がございます
         </p>
-        <p>素材：牛革(カウハイド) <br/>生産国：パキスタン<br/>カラー：ブラック、レッド、ネイビー、パープル、ターコイズ</p>
+        <p>素材：牛革(カウハイド) <br/>生産国：パキスタン<br/>カラー：ブラック、レッド、ネイビー、パープル</p>
         <div>
           <img
             className={cx('color-image')}
@@ -125,10 +125,6 @@ const productPage = () => {
             className={cx('color-image')}
             src={'/images/product_image/purple.png'}
             alt="purple"/>
-          <img
-            className={cx('color-image')}
-            src={'/images/product_image/turquoise.png'}
-            alt="turquoise"/>
         </div>
       </div>
       <div>
