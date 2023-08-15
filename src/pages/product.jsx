@@ -19,8 +19,17 @@ const productPage = () => {
         JUKEBOXX LONDON ORIGINAL<br/>
         CUSTOM RIDERS JACKET
       </p>
+
+      <div className={cx('jblxbm-style')}>
+        <img
+          className={cx('product_riders-image')}
+          src={'/images/product_riders.png'}
+          alt="product_riders"/>
+        {/* <p>JUKEBOXX LONDON × BLACK MARKET</p> */}
+      </div>
+
       <div className={cx('image-areaA')}>
-        <div className={cx('back-area')}>
+{/*         <div className={cx('back-area')}>
           <img
             className={cx('back-image')}
             src={'/images/product_image/ridersimage_back.png'}
@@ -43,10 +52,11 @@ const productPage = () => {
           <p className={cx('image-comment')}>
             IMAGE
           </p>
-        </div>
+        </div> */}
       </div>
+
       <div className={cx('image-areaB')}>
-        <div className={cx('side-area')}>
+{/*         <div className={cx('side-area')}>
           <img
             className={cx('side-image')}
             src={'/images/product_image/ridersimage_side.png'}
@@ -68,23 +78,24 @@ const productPage = () => {
             ご希望の文字を入力可能です ※MAX14文字程度
           </p>
           <p className={cx('arrow-area')}>↑</p>
-        </div>
+        </div> */}
       </div>
+
       <div className={cx('price-style')}>
-        <p className={cx('basic-price1')}>
+{/*         <p className={cx('basic-price1')}>
           BASIC STYLE
         </p>
         <p className={cx('basic-price2')}>
-          ¥218,000 -tax in
-        </p>
+          ¥  218,000 -tax in
+        </p> */}
       </div>
       <div className={cx('price-style')}>
-        <p className={cx('custom-price1')}>
+{/*         <p className={cx('custom-price1')}>
           CUSTOM STYLE
         </p>
         <p className={cx('custom-price2')}>
-          ¥ASK
-        </p>
+          ¥  ASK
+        </p> */}
       </div>
       <div className={cx('jblxbm-style')}>
         <img
@@ -92,22 +103,29 @@ const productPage = () => {
           src={'/images/jblxbm.png'}
           alt="jblxbm"/>
         <p>JUKEBOXX LONDON × BLACK MARKET</p>
-      </div>
-      <div className={cx('raiders-comment')}>
-        <p>ライダースジャケットについては<br/>BLACK MARKET様とのコラボ商品になります。<br/><br/>BLACK MARKET様オリジナルのライダースジャケットをベースに使用し、カスタムさせて頂いております。
+
+        <p><br/><br/>現在取扱い中のライダースジャケットについては<br/>
+        BLACK MARKET様とのコラボ商品になります。<br/>
+        <br/>
+        BLACK MARKET様オリジナルのライダースジャケットをベースに使用し、カスタムさせて頂いております。
         </p>
+        </div>
         <br/>
-        <p>BLACK MARKET<br/>「オリジナルライダースジャケット」</p>
+
+      <div className={cx('raiders-comment')}>
+        <p><span>BLACK MARKET<br/>「オリジナルライダースジャケット」</span>
         <br/>
-        <p>着込むほど革の中の茶がのぞいてくる所謂「茶芯レザー」を使用し、今までとは違う風合いを堪能できるようにしました。<br/>革質は、耐久性に優れ滑らかなカウレザーを使用しております。</p>
+        着込むほど革の中の茶がのぞいてくる所謂「茶芯レザー」を使用し、今までとは違う風合いを堪能できるようにしたこだわりの一品。<br/>
+        革質は、耐久性に優れ滑らかなカウレザーを使用。</p>
         <img
           className={cx('size-image')}
           src={'/images/sizelist.png'}
           alt="sizelist"/>
         <p className={cx('size-comment')}>
-          ※実際の商品と表記サイズには数cmの個体差が生じる場合がございます
+          ※実際の商品と表記サイズには数cmの個体差が生じる場合あり
         </p>
         <p>素材：牛革(カウハイド) <br/>生産国：パキスタン<br/>カラー：ブラック、レッド、ネイビー、パープル、ターコイズ</p>
+
         <div>
           <img
             className={cx('color-image')}
